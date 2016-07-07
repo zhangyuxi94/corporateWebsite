@@ -29,11 +29,41 @@
                     image:"../image/truck_k_2-3.5.png",
                     name: "K series 2-3.5t Internal combustion forklifts",
                     feature:[
-                        "The shape is simple and smooth, looks very contemporary.",
-                        "Integral hood, open freely, noise reduction.",
-                        "The steering wheel, seats and instrument racks of the product are well designed in order to guarantee the comfort of the driver's operation.",
+                        "The shape is simple, generous and beautiful, strictly environmental designed.",
+                        "Reliable LCD digital instrument, friendly interface, easy and accurate for driver to control the vehicle state.",
+                        "New steering wheel adjustment mechanism, improve operate comfort and adjustment reliability.",
                         "High-top large diameter intake system is designed to allow the engine to keep out dust, effectively enhance engine performance and increase life expectancy.",
-                        "Advanced manufacturing technology, high-quality components to ensure the reliability of the vehicle."
+                        "Reliable casting steering axle, low cost in maintenance."
+                    ],
+                    Occasion:"The product is designed to packet, handle and transport light cargos at factories, warehouses and railway stations."
+                },
+                {
+                    _id: "13",
+                    series:"k",
+                    image:"../image/trunk_k_3.8.png",
+                    name: "K series 3.8t Internal combustion forklifts",
+                    feature:[
+                        "The shape is simple, generous and beautiful, strictly environmental designed.",
+                        "Enhanced wide view mast design makes the driver's field of vision more broad.",
+                        "Reliable digital instrument, friendly interface, easy and accurate for driver to control the vehicle state.",
+                        "Integral drawing hood, beautiful appearance, high strength.",
+                        "Configure wide base tires, increase life expectancy and durable.",
+                        "New steering wheel adjustment mechanism, improve operator comfort and adjustment reliability."
+                    ],
+                    Occasion:"The product is designed to packet, handle and transport light cargos at factories, warehouses and railway stations."
+                },
+                {
+                    _id: "14",
+                    series:"k",
+                    image:"../image/trunk_k_3.8thuge.png",
+                    name: "K series 3.8t Hercules Internal combustion forklifts",
+                    feature:[
+                        "The new series of forklift with the latest technology, provide you with excellent performance.",
+                        "Powerful, faster speed, high efficiency.",
+                        "The enhanced wide-view mast design broader the perspective and increase durability.",
+                        "High intensity transmission system design with reliable operation and superior performance.",
+                        "Configure wide base tires, increase life expectancy and durable.Reliable digital instrument, friendly interface, easy and accurate for driver to control the vehicle state.",
+                        "New steering wheel adjustment mechanism, improve operator comfort and adjustment reliability."
                     ],
                     Occasion:"The product is designed to packet, handle and transport light cargos at factories, warehouses and railway stations."
                 },
