@@ -1,0 +1,26 @@
+<section class="detailBackground">
+
+</section>
+
+<section class="truckIntro">
+    <div class="container">
+        <div class="col-sm-3">
+            <h3><a href="#products"><i class="fa fa-truck" aria-hidden="true"></i>&nbsp;Products</a></h3>
+            <div class="bottomLine pull-right"></div>
+            <ul>
+                <li><a href="#products/k">K Series Forklifts</a></li>
+                <li><a href="#products/h">H&a Series Forklifts</a></li>
+                <li><a href="#products/s">Special Vehicles</a></li>
+                <li><a href="#products/o">Others</a></li>
+            </ul>
+        </div>
+        <div class="col-sm-9">
+            <h3>{{model.singleProduct.name}}</h3>
+            <hr>
+            <img ng-src="{{model.singleProduct.image}}">
+            <ul>
+                <li ng-repeat="truck in model.singleProduct.feature"><i class="fa fa-dot-circle-o" aria-hidden="true"></i>&nbsp;{{truck}}</li>
+            </ul>
+        </div>
+    </div>
+</section>

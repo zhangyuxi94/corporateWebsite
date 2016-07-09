@@ -15,16 +15,15 @@
 <section class="products-section">
     <div class="container">
         <div class="contentTitle col-lg-12" style="text-align: left">
-            <h3><i class="fa fa-cog fa-spin fa-fw"></i>&nbsp;New Products</h3>
+            <h3><a href="#products"><i class="fa fa-cog fa-spin fa-fw"></i>&nbsp;New Products</a></h3>
             <div class="bottomLine"></div>
         </div>
         <div class="row">
             <div class="col-sm-2" ng-repeat="product in model.newProducts">
                 <div class="imageHover">
-                    <img ng-src="{{product.image}}">
+                    <a href="#products/truck/{{product._id}}"><img ng-src="{{product.image}}"></a>
                 </div>
-                <!--<div class="underLine"></div>-->
-                <p>{{product.name}}</p>
+                <a href="#products/truck/{{product._id}}"><p>{{product.name}}</p></a>
             </div>
         </div>
     </div>
@@ -34,7 +33,7 @@
         <div class="row">
             <div class="col-sm-4">
                 <div class="contentTitle thumbnail">
-                    <h3><i class="fa fa-flag" aria-hidden="true"></i>&nbsp;Company Profile</h3>
+                    <h3><a href="#aboutUs/intro"><i class="fa fa-flag" aria-hidden="true"></i>&nbsp;Company Profile</a></h3>
                     <div class="bottomLine"></div>
                     <p>Anhui HeLi Co.,Ltd, founded in 1958, is mainly engaged in R&D and manufacturing of <span>industrial vehicles</span>
                         and constructing <span>machinery components</span>. With a national-level Enterprise Technical
@@ -44,25 +43,25 @@
             </div>
             <div class="col-sm-4">
                 <div class="contentTitle thumbnail">
-                    <h3><i class="fa fa-truck" aria-hidden="true"></i>&nbsp;Our Products</h3>
+                    <h3><a href="#products"><i class="fa fa-truck" aria-hidden="true"></i>&nbsp;Our Products</a></h3>
                     <div class="bottomLine"></div>
                     <ul>
-                        <li><i class="fa fa-bookmark" aria-hidden="true"></i>&nbsp;K Series Forklifts</li>
-                        <li><i class="fa fa-bookmark" aria-hidden="true"></i>&nbsp;H & a Series Forklifts</li>
-                        <li><i class="fa fa-bookmark" aria-hidden="true"></i>&nbsp;Special Vehicles</li>
-                        <li><i class="fa fa-bookmark" aria-hidden="true"></i>&nbsp;Other Vehicles</li>
+                        <li><a href="#products/k"><i class="fa fa-bookmark" aria-hidden="true"></i>&nbsp;K Series Forklifts</a></li>
+                        <li><a href="#products/h"><i class="fa fa-bookmark" aria-hidden="true"></i>&nbsp;H & a Series Forklifts</a></li>
+                        <li><a href="#products/s"><i class="fa fa-bookmark" aria-hidden="true"></i>&nbsp;Special Vehicles</a></li>
+                        <li><a href="#products/o"><i class="fa fa-bookmark" aria-hidden="true"></i>&nbsp;Other Vehicles</a></li>
                     </ul>
                 </div>
             </div>
             <div class="col-sm-4">
                 <div class="contentTitle thumbnail">
-                    <h3><i class="fa fa-newspaper-o" aria-hidden="true"></i>&nbsp;Hot News</h3>
+                    <h3><a href="#aboutUs/news"><i class="fa fa-newspaper-o" aria-hidden="true"></i>&nbsp;Hot News</a></h3>
                     <div class="bottomLine"></div>
                     <ul style="text-align: left">
-                        <li><i class="fa fa-check" aria-hidden="true"></i>&nbsp;HELI & CHL attended CeMAT Brazil 2015</li>
-                        <li><i class="fa fa-check" aria-hidden="true"></i>&nbsp;HELI Launches European Center</li>
-                        <li><i class="fa fa-check" aria-hidden="true"></i>&nbsp;HELI named No.1 Enterprise for 24th year</li>
-                        <li><i class="fa fa-check" aria-hidden="true"></i>&nbsp;Heli's magnificent appearance at Bauma China 2014</li>
+                        <li><a href="#aboutUs/news"><i class="fa fa-check" aria-hidden="true"></i>&nbsp;HELI & CHL attended CeMAT Brazil 2015</a></li>
+                        <li><a href="#aboutUs/news"><i class="fa fa-check" aria-hidden="true"></i>&nbsp;HELI Launches European Center</a></li>
+                        <li><a href="#aboutUs/news"><i class="fa fa-check" aria-hidden="true"></i>&nbsp;HELI named No.1 Enterprise for 24th year</a></li>
+                        <li><a href="#aboutUs/news"><i class="fa fa-check" aria-hidden="true"></i>&nbsp;Heli's magnificent appearance at Bauma China 2014</a></li>
                     </ul>
                     <p></p>
                 </div>
@@ -74,59 +73,58 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-2">
-                <h4><a href="#">About Us</a></h4>
+                <h4><a href="#aboutUs/intro">About Us</a></h4>
                 <div class="bottomLine"></div>
                 <ul>
-                    <li><a href="#">Introduction</a></li>
-                    <li><a href="#">Enterprise Culture</a></li>
-                    <li><a href="#">Hot News</a></li>
+                    <li><a href="#aboutUs/intro">Introduction</a></li>
+                    <li><a href="#aboutUs/culture">Enterprise Culture</a></li>
+                    <li><a href="#aboutUs/news">Hot News</a></li>
                 </ul>
             </div>
             <div class="col-sm-2">
-                <h4><a href="#">Products</a></h4>
+                <h4><a href="#products">Products</a></h4>
                 <div class="bottomLine"></div>
 
                 <ul>
-                    <li><a href="#">K Series</a></li>
-                    <li><a href="#">H&a Series</a></li>
-                    <li><a href="#">Special Vehicles</a></li>
-                    <li><a href="#">Others</a></li>
+                    <li><a href="#products/k">K Series</a></li>
+                    <li><a href="#products/h">H&a Series</a></li>
+                    <li><a href="#products/s">Special Vehicles</a></li>
+                    <li><a href="#products/o">Others</a></li>
                 </ul>
             </div>
             <div class="col-sm-2">
-                <h4><a href="#">Technology</a></h4>
+                <h4><a href="#technology/rd">Technology</a></h4>
                 <div class="bottomLine"></div>
-
                 <ul>
-                    <li><a href="#">R&D Platform</a></li>
-                    <li><a href="#">Manufacturing Equipments</a></li>
-                    <li><a href="#">Achievements</a></li>
+                    <li><a href="#technology/rd">R&D Platform</a></li>
+                    <li><a href="#technology/equipment">Manufacturing Equipments</a></li>
+                    <li><a href="#technology/achievement">Achievements</a></li>
                 </ul>
             </div>
             <div class="col-sm-2">
-                <h4><a href="#">Sales Network</a></h4>
+                <h4><a href="#sales/network">Sales Network</a></h4>
                 <div class="bottomLine"></div>
 
                 <ul>
-                    <li><a href="#">Network</a></li>
-                    <li><a href="#">Purchase</a></li>
+                    <li><a href="#sales/network">Network</a></li>
+                    <li><a href="#sales/purchase">Purchase</a></li>
                 </ul>
             </div>
             <div class="col-sm-4">
-                <h4><a href="#">Contact Us</a></h4>
+                <h4><a href="#contactUs">Contact Us</a></h4>
                 <div class="bottomLine"></div>
                 <ul>
                     <li>
                         <span class="glyphicon glyphicon-envelope"></span>
-                        <a href="#">bjhl@heliforklift.com.cn</a>
+                        <a href="mailto:bjhl@heliforklift.com.cn">bjhl@heliforklift.com.cn</a>
                     </li>
                     <li>
                         <span class="glyphicon glyphicon-phone-alt"></span>
-                        <a href="#">86-0917-3571231</a>
+                        <a>86-0917-3571231</a>
                     </li>
                     <li>
                         <span class="glyphicon glyphicon-home"></span>
-                        <a href="#">No.127 Baofu Road, Baoji, Shaanxi, China</a>
+                        <a>No.127 Baofu Road, Baoji, Shaanxi, China</a>
                     </li>
                 </ul>
             </div>

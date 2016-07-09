@@ -4,37 +4,7 @@
 
 <section class="productAll-section1">
     <div class="container">
-        <h3><a href="#products/k"><i class="fa fa-cog"></i>&nbsp;K Series Forklifts</a></h3>
-        <hr>
-        <div class="row">
-            <div class="productRight">
-                <div class="col-sm-3" ng-repeat="product in model.products|filter:{series:'k'}">
-                    <a href="#products/truck/{{product._id}}"><img ng-src="{{product.image}}"></a>
-                    <h4>{{product.name}}</h4>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="productAll-section2">
-    <div class="container">
-        <h3><a href="#products/h"><i class="fa fa-cog"></i>&nbsp;H&a Series Forklifts</a></h3>
-        <hr>
-        <div class="row">
-            <div class="productRight">
-                <div class="col-sm-3" ng-repeat="product in model.products|filter:{series:'h'}">
-                    <a href="#products/truck/{{product._id}}"><img ng-src="{{product.image}}"></a>
-                    <h4>{{product.name}}</h4>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="productAll-section1">
-    <div class="container">
-        <h3><a href="#products/s"><i class="fa fa-cog"></i>&nbsp;Special Vehicles</a></h3>
+        <h3><i class="fa fa-cog"></i>&nbsp;Special Vehicles</h3>
         <hr>
         <div class="row">
             <div class="productRight">
@@ -45,23 +15,10 @@
             </div>
         </div>
     </div>
+
 </section>
 
-<section class="productAll-section2">
-    <div class="container">
-        <h3><a href="#products/o"><i class="fa fa-cog"></i>&nbsp;Others</a></h3>
-        <hr>
-        <div class="row">
-            <div class="productRight">
-                <div class="col-sm-3" ng-repeat="product in model.products|filter:{series:'o'}">
-                    <a href="#products/truck/{{product._id}}"><img ng-src="{{product.image}}"></a>
-                    <h4>{{product.name}}</h4>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section id="contact" class="contact-section">
+<section id="contact" class="contact-section"   style="background-color: #eeeeee">
     <div class="container">
         <div class="row">
             <div class="col-sm-2">
@@ -126,4 +83,3 @@
         </div>
     </div>
 </section>
-
