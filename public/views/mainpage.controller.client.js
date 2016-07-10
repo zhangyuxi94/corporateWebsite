@@ -1,6 +1,4 @@
-/**
- * Created by zhangyuxi on 2016/5/31.
- */
+
 (function(){
     angular.module("CorporateApp")
         .controller("mainpageController",mainpageController);
@@ -276,9 +274,52 @@
                     name: "0.6-1.0t Battery Lift"
                 },
             ];
+            var newsTitle=[
+                {
+                    _id: "1",
+                    title: "HELI & CHL attended CeMAT Brazil 2015",
+                    date:"2015-08-06"
+                },
+                {
+                    _id: "2",
+                    title: "HELI Launches European Center",
+                    date:"2015-06-15"
+                },
+                {
+                    _id: "3",
+                    title: "HELI named No.1 Enterprise for 24th year",
+                    date:"2015-02-15"
+                },
+                {
+                    _id: "4",
+                    title: "Heli's magnificent appearance at Bauma China 2014",
+                    date:"2015-02-04"
+                },
+                {
+                    _id: "5",
+                    title: "HELI Loaders are going global",
+                    date:"2014-08-29"
+                },
+                {
+                    _id: "6",
+                    title: "HELI's new products shown at CeMAT 2014",
+                    date:"2014-07-03"
+                },
+                {
+                    _id: "7",
+                    title: "HELI brings new products and innovations to CeMAT 2014",
+                    date:"2014-06-10"
+                },
+                {
+                    _id: "8",
+                    title: "2014 HELI middle east agent conference",
+                    date:"2014-03-11"
+                }
+            ];
             vm.newProducts=newProducts;
             vm.products=products;
             vm.truckId=truckId;
+            vm.newsTitle=newsTitle;
 
             for(var i in products){
                 if(truckId===products[i]._id){
@@ -286,7 +327,6 @@
                 }
             }
             vm.singleProduct=singleProduct;
-            vm.a="k";
         }
         init();
     }

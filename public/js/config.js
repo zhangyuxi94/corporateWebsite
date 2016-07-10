@@ -63,6 +63,55 @@
                     controllerAs:"model"
                 })
             .when(
+                "/aboutUs/news/1",{
+                    templateUrl:"views/aboutUs_news1.html",
+                    controller:"mainpageController",
+                    controllerAs:"model"
+                })
+            .when(
+                "/aboutUs/news/2",{
+                    templateUrl:"views/aboutUs_news2.html",
+                    controller:"mainpageController",
+                    controllerAs:"model"
+                })
+            .when(
+                "/aboutUs/news/3",{
+                    templateUrl:"views/aboutUs_news3.html",
+                    controller:"mainpageController",
+                    controllerAs:"model"
+                })
+            .when(
+                "/aboutUs/news/4",{
+                    templateUrl:"views/aboutUs_news4.html",
+                    controller:"mainpageController",
+                    controllerAs:"model"
+                })
+            .when(
+                "/aboutUs/news/5",{
+                    templateUrl:"views/aboutUs_news5.html",
+                    controller:"mainpageController",
+                    controllerAs:"model"
+                })
+            .when(
+                "/aboutUs/news/6",{
+                    templateUrl:"views/aboutUs_news6.html",
+                    controller:"mainpageController",
+                    controllerAs:"model"
+                })
+            .when(
+                "/aboutUs/news/7",{
+                    templateUrl:"views/aboutUs_news7.html",
+                    controller:"mainpageController",
+                    controllerAs:"model"
+                })
+            .when(
+                "/aboutUs/news/1",{
+                    templateUrl:"views/aboutUs_news1.html",
+                    controller:"mainpageController",
+                    controllerAs:"model"
+                })
+
+            .when(
                 "/technology/rd",{
                     templateUrl:"views/technology_rd.html",
                     controller:"mainpageController",
