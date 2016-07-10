@@ -2,35 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7125d60-d8f6-43eb-b6e9-086aa61da97d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/image/intro_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/image/intro_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/image/intro_3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/views/aboutUs_news1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/views/aboutUs_news2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/views/aboutUs_news3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/views/aboutUs_news4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/views/aboutUs_news5.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/views/aboutUs_news6.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/views/aboutUs_news7.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/views/aboutUs_news8.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/image/truck_h_euro3.png" afterPath="$PROJECT_DIR$/public/image/truck_h_euro3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/image/truck_o_dzc-tl.png" afterPath="$PROJECT_DIR$/public/image/truck_o_dzc-tl.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/image/truck_s_nh3t.png" afterPath="$PROJECT_DIR$/public/image/truck_s_nh3t.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/mainpage.css" afterPath="$PROJECT_DIR$/public/css/mainpage.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/config.js" afterPath="$PROJECT_DIR$/public/js/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/views/aboutUs_culture.html" afterPath="$PROJECT_DIR$/public/views/aboutUs_culture.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/views/aboutUs_intro.html" afterPath="$PROJECT_DIR$/public/views/aboutUs_intro.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/views/aboutUs_news.html" afterPath="$PROJECT_DIR$/public/views/aboutUs_news.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/views/contactUs.html" afterPath="$PROJECT_DIR$/public/views/contactUs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/views/mainpage.controller.client.js" afterPath="$PROJECT_DIR$/public/views/mainpage.controller.client.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/views/mainpage.html" afterPath="$PROJECT_DIR$/public/views/mainpage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/views/products_truck.html" afterPath="$PROJECT_DIR$/public/views/products_truck.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/views/sales_network.html" afterPath="$PROJECT_DIR$/public/views/sales_network.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/views/sales_purchase.html" afterPath="$PROJECT_DIR$/public/views/sales_purchase.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/views/technology_achievement.html" afterPath="$PROJECT_DIR$/public/views/technology_achievement.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/views/technology_equipment.html" afterPath="$PROJECT_DIR$/public/views/technology_equipment.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/views/technology_rd.html" afterPath="$PROJECT_DIR$/public/views/technology_rd.html" />
     </list>
     <ignored path="corporate.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -346,18 +318,18 @@
       <option name="presentableId" value="Default" />
       <updated>1467819485721</updated>
       <workItem from="1467819487144" duration="53259000" />
-      <workItem from="1467942046477" duration="48956000" />
+      <workItem from="1467942046477" duration="49738000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102215000" />
+    <option name="totallyTimeSpent" value="102997000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="107" y="13" width="1164" height="682" extended-state="1" />
+    <frame x="107" y="13" width="1164" height="682" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2944251" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2944251" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -409,7 +381,7 @@
             <element signature="n#section#4;n#!!top" expanded="false" />
             <element signature="n#div#0;n#section#4;n#!!top" expanded="false" />
             <element signature="n#div#0;n#section#5;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#section#5;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#section#5;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -552,7 +524,7 @@
             <element signature="n#section#4;n#!!top" expanded="false" />
             <element signature="n#div#0;n#section#4;n#!!top" expanded="false" />
             <element signature="n#div#0;n#section#5;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#section#5;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#section#5;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
